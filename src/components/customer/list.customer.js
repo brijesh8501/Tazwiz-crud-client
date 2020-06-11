@@ -63,7 +63,9 @@ class CustomerList extends Component{
                 <Header/>
                 <div className="container set-body-height mt-3 mb-5">
                     <h1 className="text-center">Customer</h1>
+                    <div className="adjust-table mt-5">
                        <List listLabel = {createList} listType = "customer" listData = {this.state.listData} deleteRecord = {this.deleteRecord}/>
+                    </div>
                 </div>
                 <Footer/>
             </div>

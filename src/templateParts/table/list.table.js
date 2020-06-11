@@ -35,7 +35,7 @@ class List extends Component{
         })
         return(
             
-            <div className="table-responsive adjust-table">
+            <div className="table-responsive">
                 
                 <table className="table table-bordered" id="dataTable" width="100%" cellSpacing="0">
                     <thead>

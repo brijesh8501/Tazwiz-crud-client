@@ -46,7 +46,7 @@ class ProductList extends Component{
                 <Header/>
                 <div className="container set-body-height mt-3 mb-5">
                     <h1 className="text-center pt-3">Product</h1>
-                    <div className="table-responsive mt-5">
+                    <div className="adjust-table mt-5">
                        <List listLabel = {createList} listType = "product" listData = {this.state.listData} deleteRecord = {this.deleteRecord}/>
                     </div>
                 </div>
