@@ -13,8 +13,8 @@ class Home extends Component{
         return (<div className="container set-body-height mt-3">
             <div className="card mt-3">
             <div className="card-body">
-                <h5 className="card-title">{this.state.userProfile.firstName} {this.state.userProfile.lastName}, welcome to admin panel</h5>
-                <p className="card-text">Email: {this.state.userProfile.email}</p>
+                <h5 className="card-title">{(this.state.userProfile.firstName)&& this.state.userProfile.firstName} {(this.state.userProfile.lastName)&& `${this.state.userProfile.lastName},`} welcome to admin panel</h5>
+                {(this.state.userProfile.email)&& <p className="card-text">Email: {this.state.userProfile.email}</p>}
             </div>
             </div>
         </div>)
