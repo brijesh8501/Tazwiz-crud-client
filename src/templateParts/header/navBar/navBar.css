@@ -1,0 +1,11 @@
+.navbar-wrapper{
+    background-color: #193451;
+}
+.navbar-skin a{
+    color:white;
+}
+li.nav-item.active{
+    background-color: #335075;
+    border-radius: 5px;
+    border:1px solid white;
+}
